@@ -1,6 +1,31 @@
-.selected {
-    background-color: #007bff;
-    color: white;
-    border-color: #007bff;
+/* Page colors */
+body {
+  background-color: #fff5ec;
+  color: #46332b;
 }
-  
+
+/* Keep the quiz from getting too wide */
+main {
+  max-width: 700px;
+}
+
+h1 {
+  margin-bottom: 15px;
+}
+
+/* Put the answer text on the left */
+.answer-btn {
+  text-align: left;
+}
+
+/* Make the selected answer green */
+.answer-btn.selected {
+  background-color: #198754;
+  color: white;
+}
+
+/* Make the result easy to read */
+#result-container {
+  font-size: 20px;
+  font-weight: bold;
+}
